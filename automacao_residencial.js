@@ -25,7 +25,7 @@ function AlteraRele2(){
 }
 
 function AlteraRele3(){
-    var estado_3 = document.getElementById("estado_2").innerHTML;
+    var estado_3 = document.getElementById("estado_3").innerHTML;
     if(estado_3 === "0"){
         document.getElementById("estado_3").innerHTML="1";
         document.getElementById("rele_3").innerHTML="<div class='rele3_ligado'></div>";
